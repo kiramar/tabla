@@ -1,0 +1,58 @@
+.gasnoble
+{background-color:PaleTurquoise;}
+.halogenos
+{background-color:#E772FF;}
+.nometales
+{background-color:#7278FF;}
+.metaloides
+{background-color:#72FF94}
+.metalesalcalinos
+{background-color:#FFA07A}
+.alcalinoterreos
+{background-color:#EEE8AA}
+ .otrosmetales
+{background-color:#F0E68C}
+.elementosdesconocidos
+{background-color:#A9A9A9}
+
+td:hover{
+  opacity: 1;
+transition: all ;
+visibility: visible;
+  background: #f0f;}
+
+td{transition: width 0.2s, heigth 0.2s, transform 0.2s;}
+.zoom{
+  transition: width 1s, height 1s, transform 1s;
+}
+.zoom:hover {
+  transform:scale(5);
+}
+.modal-comtenido{
+background-color:rgba(40,114,51,0.5);
+color:#ffffff;
+width:300px;
+padding: 10px 20px;
+box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.527);
+margin: 2rem auto;
+position: relative;
+border-style:outset;border-radius: 6px;
+overflow: hidden;
+z-index: 1;
+backdrop-filter: saturate(180%) blur(20px);
+  .modal{
+background-color: rgba(0,0,0,.6);
+position:fixed;
+top:0;
+right:0;
+bottom:0;
+left:0;
+opacity:0;
+pointer-events:none;
+transition:all 1segundo;
+  }
+  : target{
+    opacity:1;
+pointer-events:auto;
+border-radius: 8px;
+  }
